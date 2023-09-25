@@ -1,5 +1,4 @@
 tests/acceptance/BuclesCest.php:try227WorksTest
-tests/acceptance/PhpBasicCest.php:try205WorksTest
 tests/unit/FunctionsTest.php:test240EsParell
 tests/unit/FunctionsTest.php:test240arrayAleatori
 tests/unit/FunctionsTest.php:test240countParells
