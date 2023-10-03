@@ -210,14 +210,14 @@
  <body>
    <ul id="toolbar-filter">
      <li> <a href="#" title="Show all" onClick="showAllScenarios()">◯</a></li>
-     <li> <a href="#" title="Successful" onClick="toggleScenarios('scenarioSuccess', this.parentElement)"><strong>✔</strong> 16</a></li>
-     <li> <a href="#" title="Failed" onClick="toggleScenarios('scenarioFailed', this.parentElement)"><strong>✗</strong> 1</a></li>
+     <li> <a href="#" title="Successful" onClick="toggleScenarios('scenarioSuccess', this.parentElement)"><strong>✔</strong> 26</a></li>
+     <li> <a href="#" title="Failed" onClick="toggleScenarios('scenarioFailed', this.parentElement)"><strong>✗</strong> 5</a></li>
      <li> <a href="#" title="Skipped" onClick="toggleScenarios('scenarioSkipped', this.parentElement)"><strong>S</strong> 0</a></li>
      <li> <a href="#" title="Incomplete" onClick="toggleScenarios('scenarioIncomplete', this.parentElement)"><strong>I</strong> 0</a></li>
      <li> <a href="#" title="Useless" onClick="toggleScenarios('scenarioUseless', this.parentElement)"><strong>U</strong> 0</a></li>
    </ul>
  <div class="layout">
- <h1>Codeception Results <small><span style="color: #e74c3c">FAILED</span> (00:00.980)</small></h1>
+ <h1>Codeception Results <small><span style="color: #e74c3c">FAILED</span> (00:00.342)</small></h1>
 
 
 
@@ -229,12 +229,143 @@
 </tr>   <tr class="scenarioRow scenarioSuccess">
     <td>
      <p class="scenarioSuccess" onclick="showHide('1', this)"><span class="toggle">+</span>
-          <span class="quiet">BuclesCest &raquo;</span> Try220 works test <span style="color: #34495e; font-size: 70%;">0.08s</span></p>
+          <span class="quiet">ArraysCest &raquo;</span> Try230 works test <span style="color: #34495e; font-size: 70%;">0.02s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
     <td>
      <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer1">
+
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I am on page <span style="color: #732E81">&quot;/230.php&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see in source <span style="color: #732E81">&quot;&lt;ul&gt; &lt;li&gt;&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see in source <span style="color: #732E81">&quot;&lt;/li&gt; &lt;/ul&gt;&quot;</span></td>
+      </tr>
+
+
+         
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioFailed">
+    <td>
+     <p class="scenarioFailed" onclick="showHide('2', this)"><span class="toggle">+</span>
+          <span class="quiet">ArraysCest &raquo;</span> Try233 works test <span style="color: #34495e; font-size: 70%;">0s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioFailed">
+    <td>
+     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer2">
+
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I am on page <span style="color: #732E81">&quot;/233.php&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName failedStep">&nbsp;&nbsp;&nbsp;&nbsp;I see <span style="color: #732E81">&quot;Posa la quantitat a la variable quantitat pel QueryString&quot;</span></td>
+      </tr>
+
+
+         <tr >
+    <td class="error">
+        Failed asserting that on page /233.php<br />
+--> File not found. <br />
+--> contains "Posa la quantitat a la variable quantitat pel QueryString".
+    </td>
+</tr>
+
+         
+         <tr><td class='error'>See <a href='ArraysCest.try233WorksTest.fail.html' target='_blank'>HTML snapshot</a> of a failed page</td></tr>
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <p class="scenarioSuccess" onclick="showHide('3', this)"><span class="toggle">+</span>
+          <span class="quiet">ArraysCest &raquo;</span> Try234 works test <span style="color: #34495e; font-size: 70%;">0s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer3">
+
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I am on page <span style="color: #732E81">&quot;/234.php&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see in source <span style="color: #732E81">&quot;&lt;table&gt; &lt;thead&gt; &lt;tr&gt; &lt;th&gt;Nom&lt;/th&gt; &lt;th&gt;Alçada&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt;&quot;</span></td>
+      </tr>
+
+
+         
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <p class="scenarioSuccess" onclick="showHide('4', this)"><span class="toggle">+</span>
+          <span class="quiet">ArraysCest &raquo;</span> Try235 works test <span style="color: #34495e; font-size: 70%;">0s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer4">
+
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I am on page <span style="color: #732E81">&quot;/235.php&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see in source <span style="color: #732E81">&quot;&lt;table&gt; &lt;thead&gt; &lt;tr&gt; &lt;th&gt;Nom&lt;/th&gt; &lt;th&gt;Alçada&lt;/th&gt; &lt;th&gt;Email&lt;/th&gt; &lt;/tr&gt; &lt;/thead&gt;&quot;</span></td>
+      </tr>
+
+
+         
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <p class="scenarioSuccess" onclick="showHide('5', this)"><span class="toggle">+</span>
+          <span class="quiet">BuclesCest &raquo;</span> Try220 works test <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer5">
 
 
       <tr>
@@ -278,13 +409,13 @@
 
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <p class="scenarioSuccess" onclick="showHide('2', this)"><span class="toggle">+</span>
-          <span class="quiet">BuclesCest &raquo;</span> Try221 works test <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
+     <p class="scenarioSuccess" onclick="showHide('6', this)"><span class="toggle">+</span>
+          <span class="quiet">BuclesCest &raquo;</span> Try221 works test <span style="color: #34495e; font-size: 70%;">0s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer2">
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer6">
 
 
       <tr>
@@ -308,13 +439,13 @@
 
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <p class="scenarioSuccess" onclick="showHide('3', this)"><span class="toggle">+</span>
-          <span class="quiet">BuclesCest &raquo;</span> Try222 works test <span style="color: #34495e; font-size: 70%;">0.02s</span></p>
+     <p class="scenarioSuccess" onclick="showHide('7', this)"><span class="toggle">+</span>
+          <span class="quiet">BuclesCest &raquo;</span> Try222 works test <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer3">
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer7">
 
 
       <tr>
@@ -362,13 +493,13 @@
 
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <p class="scenarioSuccess" onclick="showHide('4', this)"><span class="toggle">+</span>
-          <span class="quiet">BuclesCest &raquo;</span> Try223 works test <span style="color: #34495e; font-size: 70%;">0.07s</span></p>
+     <p class="scenarioSuccess" onclick="showHide('8', this)"><span class="toggle">+</span>
+          <span class="quiet">BuclesCest &raquo;</span> Try223 works test <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer4">
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer8">
 
 
       <tr>
@@ -424,13 +555,13 @@
 
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <p class="scenarioSuccess" onclick="showHide('5', this)"><span class="toggle">+</span>
-          <span class="quiet">BuclesCest &raquo;</span> Try224 works test <span style="color: #34495e; font-size: 70%;">0.04s</span></p>
+     <p class="scenarioSuccess" onclick="showHide('9', this)"><span class="toggle">+</span>
+          <span class="quiet">BuclesCest &raquo;</span> Try224 works test <span style="color: #34495e; font-size: 70%;">0.02s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer5">
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer9">
 
 
       <tr>
@@ -494,13 +625,13 @@
 
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <p class="scenarioSuccess" onclick="showHide('6', this)"><span class="toggle">+</span>
+     <p class="scenarioSuccess" onclick="showHide('10', this)"><span class="toggle">+</span>
           <span class="quiet">BuclesCest &raquo;</span> Try225 works test <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer6">
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer10">
 
 
       <tr>
@@ -540,13 +671,13 @@
 
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <p class="scenarioSuccess" onclick="showHide('7', this)"><span class="toggle">+</span>
-          <span class="quiet">BuclesCest &raquo;</span> Try226 works test <span style="color: #34495e; font-size: 70%;">0.02s</span></p>
+     <p class="scenarioSuccess" onclick="showHide('11', this)"><span class="toggle">+</span>
+          <span class="quiet">BuclesCest &raquo;</span> Try226 works test <span style="color: #34495e; font-size: 70%;">0s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer7">
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer11">
 
 
       <tr>
@@ -586,13 +717,13 @@
 
    <tr class="scenarioRow scenarioFailed">
     <td>
-     <p class="scenarioFailed" onclick="showHide('8', this)"><span class="toggle">+</span>
-          <span class="quiet">BuclesCest &raquo;</span> Try227 works test <span style="color: #34495e; font-size: 70%;">0.02s</span></p>
+     <p class="scenarioFailed" onclick="showHide('12', this)"><span class="toggle">+</span>
+          <span class="quiet">BuclesCest &raquo;</span> Try227 works test <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioFailed">
     <td>
-     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer8">
+     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer12">
 
 
       <tr>
@@ -640,13 +771,202 @@
 
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <p class="scenarioSuccess" onclick="showHide('9', this)"><span class="toggle">+</span>
-          <span class="quiet">PhpBasicCest &raquo;</span> Try201 works test <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
+     <p class="scenarioSuccess" onclick="showHide('13', this)"><span class="toggle">+</span>
+          <span class="quiet">ExamenCest &raquo;</span> Try270 works test <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer9">
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer13">
+
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I am on page <span style="color: #732E81">&quot;/270.php&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see in source <span style="color: #732E81">&quot;&lt;!-- Capçalera de la taula --&gt; &lt;tr&gt;&lt;th&gt;Prova&lt;/th&gt;&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see in source <span style="color: #732E81">&quot;&lt;!-- Cos de la taula --&gt; &lt;tr&gt;&lt;td&gt;100&lt;/td&gt;&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see in source <span style="color: #732E81">&quot;&lt;th&gt;Prova&lt;/th&gt; &lt;th&gt;Marca&lt;/th&gt; &lt;th&gt;Atleta&lt;/th&gt; &lt;th&gt;Natalici&lt;/th&gt; &lt;th&gt;Club&lt;/th&gt; &lt;th&gt;Data&lt;/th&gt; &lt;th&gt;Lloc&lt;/th&gt;&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see in source <span style="color: #732E81">&quot;&lt;tr&gt;&lt;td&gt;1.500&lt;/td&gt; &lt;td&gt;3:28.76&lt;/td&gt; &lt;td&gt;Mohamed Katir El Haouzi&lt;/td&gt; &lt;td&gt;1998&lt;/td&gt; &lt;td&gt;Playas de Castellón&lt;/td&gt; &lt;td&gt;09.07.2021&lt;/td&gt; &lt;td&gt;Mónaco&lt;/td&gt; &lt;/tr&gt;&quot;</span></td>
+      </tr>
+
+
+         
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <p class="scenarioSuccess" onclick="showHide('14', this)"><span class="toggle">+</span>
+          <span class="quiet">ExamenCest &raquo;</span> Try271 works test <span style="color: #34495e; font-size: 70%;">0.03s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer14">
+
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I am on page <span style="color: #732E81">&quot;/271.php&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see <span style="color: #732E81">&quot;Prova&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see <span style="color: #732E81">&quot;Marca&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see in source <span style="color: #732E81">&quot;&lt;input id=&quot;natalici&quot; name=&quot;natalici&quot; placeholder=&quot;Any de naixement&quot; type=&quot;text&quot; class=&quot;form-control&quot;&gt;&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I don&#039;t see <span style="color: #732E81">&quot;La prova 500 no existeix en la llista de records oficials de la FEA&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I am on page <span style="color: #732E81">&quot;/271.php&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I fill field <span style="color: #732E81">&quot;prova&quot;,500</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I click <span style="color: #732E81">&quot;submit&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see <span style="color: #732E81">&quot;La prova 500 no existeix en la llista de records oficials de la FEA&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I am on page <span style="color: #732E81">&quot;/271.php&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I fill field <span style="color: #732E81">&quot;prova&quot;,200</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I fill field <span style="color: #732E81">&quot;marca&quot;,&quot;19:20&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I fill field <span style="color: #732E81">&quot;atleta&quot;,&quot;Ignasi Gomis Mullor&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I fill field <span style="color: #732E81">&quot;natalici&quot;,&quot;1968&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I fill field <span style="color: #732E81">&quot;club&quot;,&quot;POC A POC ALCOI&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I fill field <span style="color: #732E81">&quot;data&quot;,&quot;09.07.2022&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I fill field <span style="color: #732E81">&quot;lloc&quot;,&quot;Alcoi&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I click <span style="color: #732E81">&quot;submit&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I don&#039;t see <span style="color: #732E81">&quot;La prova 500 no existeix en la llista de records oficials de la FEA&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see in source <span style="color: #732E81">&quot;&lt;th&gt;Prova&lt;/th&gt; &lt;th&gt;Marca&lt;/th&gt; &lt;th&gt;Atleta&lt;/th&gt; &lt;th&gt;Natalici&lt;/th&gt; &lt;th&gt;Club&lt;/th&gt; &lt;th&gt;Data&lt;/th&gt; &lt;th&gt;Lloc&lt;/th&gt;&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see in source <span style="color: #732E81">&quot;&lt;tr&gt;&lt;td&gt;200&lt;/td&gt; &lt;td&gt;19:20&lt;/td&gt; &lt;td&gt;Ignasi Gomis Mullor&lt;/td&gt; &lt;td&gt;1968&lt;/td&gt; &lt;td&gt;POC A POC ALCOI&lt;/td&gt; &lt;td&gt;09.07.2022&lt;/td&gt; &lt;td&gt;Alcoi&lt;/td&gt; &lt;/tr&gt;&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I see in source <span style="color: #732E81">&quot;&lt;tr&gt;&lt;td&gt;1.500&lt;/td&gt; &lt;td&gt;3:28.76&lt;/td&gt; &lt;td&gt;Mohamed Katir El Haouzi&lt;/td&gt; &lt;td&gt;1998&lt;/td&gt; &lt;td&gt;Playas de Castellón&lt;/td&gt; &lt;td&gt;09.07.2021&lt;/td&gt; &lt;td&gt;Mónaco&lt;/td&gt; &lt;/tr&gt;&quot;</span></td>
+      </tr>
+
+
+         
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioFailed">
+    <td>
+     <p class="scenarioFailed" onclick="showHide('15', this)"><span class="toggle">+</span>
+          <span class="quiet">ExamenCest &raquo;</span> Try272 works test <span style="color: #34495e; font-size: 70%;">0s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioFailed">
+    <td>
+     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer15">
+
+
+      <tr>
+       <td class="stepName ">&nbsp;&nbsp;&nbsp;&nbsp;I am on page <span style="color: #732E81">&quot;/272.php&quot;</span></td>
+      </tr>
+
+      <tr>
+       <td class="stepName failedStep">&nbsp;&nbsp;&nbsp;&nbsp;I see <span style="color: #732E81">&quot;Record més antic: Altura&quot;</span></td>
+      </tr>
+
+
+         <tr >
+    <td class="error">
+        Failed asserting that on page /272.php<br />
+--> <br />
+--> contains "Record més antic: Altura".
+    </td>
+</tr>
+
+         
+         <tr><td class='error'>See <a href='acceptance.ExamenCest.try272WorksTest.fail.html' target='_blank'>HTML snapshot</a> of a failed page</td></tr>
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <p class="scenarioSuccess" onclick="showHide('16', this)"><span class="toggle">+</span>
+          <span class="quiet">PhpBasicCest &raquo;</span> Try201 works test <span style="color: #34495e; font-size: 70%;">0s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer16">
 
 
       <tr>
@@ -670,13 +990,13 @@
 
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <p class="scenarioSuccess" onclick="showHide('10', this)"><span class="toggle">+</span>
-          <span class="quiet">PhpBasicCest &raquo;</span> Try202 works test <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
+     <p class="scenarioSuccess" onclick="showHide('17', this)"><span class="toggle">+</span>
+          <span class="quiet">PhpBasicCest &raquo;</span> Try202 works test <span style="color: #34495e; font-size: 70%;">0s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer10">
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer17">
 
 
       <tr>
@@ -716,13 +1036,13 @@
 
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <p class="scenarioSuccess" onclick="showHide('11', this)"><span class="toggle">+</span>
-          <span class="quiet">PhpBasicCest &raquo;</span> Try203 works test <span style="color: #34495e; font-size: 70%;">0.02s</span></p>
+     <p class="scenarioSuccess" onclick="showHide('18', this)"><span class="toggle">+</span>
+          <span class="quiet">PhpBasicCest &raquo;</span> Try203 works test <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer11">
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer18">
 
 
       <tr>
@@ -794,13 +1114,13 @@
 
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <p class="scenarioSuccess" onclick="showHide('12', this)"><span class="toggle">+</span>
-          <span class="quiet">PhpBasicCest &raquo;</span> Try204 works test <span style="color: #34495e; font-size: 70%;">0.02s</span></p>
+     <p class="scenarioSuccess" onclick="showHide('19', this)"><span class="toggle">+</span>
+          <span class="quiet">PhpBasicCest &raquo;</span> Try204 works test <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer12">
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer19">
 
 
       <tr>
@@ -840,13 +1160,13 @@
 
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <p class="scenarioSuccess" onclick="showHide('13', this)"><span class="toggle">+</span>
-          <span class="quiet">PhpBasicCest &raquo;</span> Try205 works test <span style="color: #34495e; font-size: 70%;">0.02s</span></p>
+     <p class="scenarioSuccess" onclick="showHide('20', this)"><span class="toggle">+</span>
+          <span class="quiet">PhpBasicCest &raquo;</span> Try205 works test <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer13">
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer20">
 
 
       <tr>
@@ -890,13 +1210,13 @@
 
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <p class="scenarioSuccess" onclick="showHide('14', this)"><span class="toggle">+</span>
-          <span class="quiet">PhpBasicCest &raquo;</span> Try206 works test <span style="color: #34495e; font-size: 70%;">0.06s</span></p>
+     <p class="scenarioSuccess" onclick="showHide('21', this)"><span class="toggle">+</span>
+          <span class="quiet">PhpBasicCest &raquo;</span> Try206 works test <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer14">
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer21">
 
 
       <tr>
@@ -944,13 +1264,13 @@
 
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <p class="scenarioSuccess" onclick="showHide('15', this)"><span class="toggle">+</span>
-          <span class="quiet">PhpBasicCest &raquo;</span> Try207 works test <span style="color: #34495e; font-size: 70%;">0.03s</span></p>
+     <p class="scenarioSuccess" onclick="showHide('22', this)"><span class="toggle">+</span>
+          <span class="quiet">PhpBasicCest &raquo;</span> Try207 works test <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer15">
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer22">
 
 
       <tr>
@@ -990,13 +1310,13 @@
 
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <p class="scenarioSuccess" onclick="showHide('16', this)"><span class="toggle">+</span>
-          <span class="quiet">PhpBasicCest &raquo;</span> Try208 works test <span style="color: #34495e; font-size: 70%;">0.03s</span></p>
+     <p class="scenarioSuccess" onclick="showHide('23', this)"><span class="toggle">+</span>
+          <span class="quiet">PhpBasicCest &raquo;</span> Try208 works test <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer16">
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer23">
 
 
       <tr>
@@ -1036,13 +1356,13 @@
 
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <p class="scenarioSuccess" onclick="showHide('17', this)"><span class="toggle">+</span>
-          <span class="quiet">PhpBasicCest &raquo;</span> Try209 works test <span style="color: #34495e; font-size: 70%;">0.02s</span></p>
+     <p class="scenarioSuccess" onclick="showHide('24', this)"><span class="toggle">+</span>
+          <span class="quiet">PhpBasicCest &raquo;</span> Try209 works test <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioSuccess">
     <td>
-     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer17">
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer24">
 
 
       <tr>
@@ -1088,213 +1408,19 @@
  <td>
      <h3>Unit Tests</h3>
  </td>
-</tr>   <tr class="scenarioRow scenarioFailed">
+</tr>   <tr class="scenarioRow scenarioSuccess">
     <td>
-     <p class="scenarioFailed" onclick="showHide('18', this)">
-          <span class="quiet">FunctionsTest &raquo;</span> Test240 es parell <span style="color: #34495e; font-size: 70%;">0.03s</span></p>
+     <p class="scenarioSuccess" onclick="showHide('25', this)">
+          <span class="quiet">ExamenTest &raquo;</span> Test270a <span style="color: #34495e; font-size: 70%;">0.01s</span></p>
     </td>
    </tr>
-   <tr class="scenarioRow scenarioFailed">
+   <tr class="scenarioRow scenarioSuccess">
     <td>
-     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer18">
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer25">
 
 
-
-         <tr >
-    <td class="error">
-        include_once(./src/functions.php): Failed to open stream: No such file or directory at /var/www/php/tests/unit/FunctionsTest.php:12
-    </td>
-</tr>
 
          
-         
-     </table>
-
-
-    </td>
-   </tr>
-
-
-   <tr class="scenarioRow scenarioFailed">
-    <td>
-     <p class="scenarioFailed" onclick="showHide('19', this)">
-          <span class="quiet">FunctionsTest &raquo;</span> Test240array aleatori <span style="color: #34495e; font-size: 70%;">0s</span></p>
-    </td>
-   </tr>
-   <tr class="scenarioRow scenarioFailed">
-    <td>
-     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer19">
-
-
-
-         <tr >
-    <td class="error">
-        include_once(./src/functions.php): Failed to open stream: No such file or directory at /var/www/php/tests/unit/FunctionsTest.php:12
-    </td>
-</tr>
-
-         
-         
-     </table>
-
-
-    </td>
-   </tr>
-
-
-   <tr class="scenarioRow scenarioFailed">
-    <td>
-     <p class="scenarioFailed" onclick="showHide('20', this)">
-          <span class="quiet">FunctionsTest &raquo;</span> Test240count parells <span style="color: #34495e; font-size: 70%;">0s</span></p>
-    </td>
-   </tr>
-   <tr class="scenarioRow scenarioFailed">
-    <td>
-     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer20">
-
-
-
-         <tr >
-    <td class="error">
-        include_once(./src/functions.php): Failed to open stream: No such file or directory at /var/www/php/tests/unit/FunctionsTest.php:12
-    </td>
-</tr>
-
-         
-         
-     </table>
-
-
-    </td>
-   </tr>
-
-
-   <tr class="scenarioRow scenarioFailed">
-    <td>
-     <p class="scenarioFailed" onclick="showHide('21', this)">
-          <span class="quiet">FunctionsTest &raquo;</span> Test241 major <span style="color: #34495e; font-size: 70%;">0s</span></p>
-    </td>
-   </tr>
-   <tr class="scenarioRow scenarioFailed">
-    <td>
-     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer21">
-
-
-
-         <tr >
-    <td class="error">
-        include_once(./src/functions.php): Failed to open stream: No such file or directory at /var/www/php/tests/unit/FunctionsTest.php:12
-    </td>
-</tr>
-
-         
-         
-     </table>
-
-
-    </td>
-   </tr>
-
-
-   <tr class="scenarioRow scenarioFailed">
-    <td>
-     <p class="scenarioFailed" onclick="showHide('22', this)">
-          <span class="quiet">FunctionsTest &raquo;</span> Test241 concatenar <span style="color: #34495e; font-size: 70%;">0s</span></p>
-    </td>
-   </tr>
-   <tr class="scenarioRow scenarioFailed">
-    <td>
-     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer22">
-
-
-
-         <tr >
-    <td class="error">
-        include_once(./src/functions.php): Failed to open stream: No such file or directory at /var/www/php/tests/unit/FunctionsTest.php:12
-    </td>
-</tr>
-
-         
-         
-     </table>
-
-
-    </td>
-   </tr>
-
-
-   <tr class="scenarioRow scenarioFailed">
-    <td>
-     <p class="scenarioFailed" onclick="showHide('23', this)">
-          <span class="quiet">FunctionsTest &raquo;</span> Test242 digits <span style="color: #34495e; font-size: 70%;">0s</span></p>
-    </td>
-   </tr>
-   <tr class="scenarioRow scenarioFailed">
-    <td>
-     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer23">
-
-
-
-         <tr >
-    <td class="error">
-        include_once(./src/functions.php): Failed to open stream: No such file or directory at /var/www/php/tests/unit/FunctionsTest.php:12
-    </td>
-</tr>
-
-         
-         
-     </table>
-
-
-    </td>
-   </tr>
-
-
-   <tr class="scenarioRow scenarioFailed">
-    <td>
-     <p class="scenarioFailed" onclick="showHide('24', this)">
-          <span class="quiet">FunctionsTest &raquo;</span> Test242 digits n <span style="color: #34495e; font-size: 70%;">0s</span></p>
-    </td>
-   </tr>
-   <tr class="scenarioRow scenarioFailed">
-    <td>
-     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer24">
-
-
-
-         <tr >
-    <td class="error">
-        include_once(./src/functions.php): Failed to open stream: No such file or directory at /var/www/php/tests/unit/FunctionsTest.php:12
-    </td>
-</tr>
-
-         
-         
-     </table>
-
-
-    </td>
-   </tr>
-
-
-   <tr class="scenarioRow scenarioFailed">
-    <td>
-     <p class="scenarioFailed" onclick="showHide('25', this)">
-          <span class="quiet">FunctionsTest &raquo;</span> Test242 lleva darrere <span style="color: #34495e; font-size: 70%;">0s</span></p>
-    </td>
-   </tr>
-   <tr class="scenarioRow scenarioFailed">
-    <td>
-     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer25">
-
-
-
-         <tr >
-    <td class="error">
-        include_once(./src/functions.php): Failed to open stream: No such file or directory at /var/www/php/tests/unit/FunctionsTest.php:12
-    </td>
-</tr>
-
          
          
      </table>
@@ -1307,7 +1433,7 @@
    <tr class="scenarioRow scenarioFailed">
     <td>
      <p class="scenarioFailed" onclick="showHide('26', this)">
-          <span class="quiet">FunctionsTest &raquo;</span> Test242 lleva davant <span style="color: #34495e; font-size: 70%;">0s</span></p>
+          <span class="quiet">ExamenTest &raquo;</span> Test272 fec ing <span style="color: #34495e; font-size: 70%;">0s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioFailed">
@@ -1318,7 +1444,7 @@
 
          <tr >
     <td class="error">
-        include_once(./src/functions.php): Failed to open stream: No such file or directory at /var/www/php/tests/unit/FunctionsTest.php:12
+        Call to undefined function unit\fecha_inglesa()
     </td>
 </tr>
 
@@ -1334,7 +1460,7 @@
    <tr class="scenarioRow scenarioFailed">
     <td>
      <p class="scenarioFailed" onclick="showHide('27', this)">
-          <span class="quiet">FunctionsTest &raquo;</span> Test243peseta2 euros <span style="color: #34495e; font-size: 70%;">0s</span></p>
+          <span class="quiet">ExamenTest &raquo;</span> Test272 vell <span style="color: #34495e; font-size: 70%;">0s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioFailed">
@@ -1345,7 +1471,7 @@
 
          <tr >
     <td class="error">
-        include_once(./src/functions.php): Failed to open stream: No such file or directory at /var/www/php/tests/unit/FunctionsTest.php:12
+        Call to undefined function unit\vell()
     </td>
 </tr>
 
@@ -1361,7 +1487,7 @@
    <tr class="scenarioRow scenarioFailed">
     <td>
      <p class="scenarioFailed" onclick="showHide('28', this)">
-          <span class="quiet">FunctionsTest &raquo;</span> Test243euro2 pesetes <span style="color: #34495e; font-size: 70%;">0s</span></p>
+          <span class="quiet">ExamenTest &raquo;</span> Test272 laureado <span style="color: #34495e; font-size: 70%;">0s</span></p>
     </td>
    </tr>
    <tr class="scenarioRow scenarioFailed">
@@ -1372,7 +1498,338 @@
 
          <tr >
     <td class="error">
-        include_once(./src/functions.php): Failed to open stream: No such file or directory at /var/www/php/tests/unit/FunctionsTest.php:12
+        Call to undefined function unit\laureado()
+    </td>
+</tr>
+
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioFailed">
+    <td>
+     <p class="scenarioFailed" onclick="showHide('29', this)">
+          <span class="quiet">ExamenTest &raquo;</span> Test273 jove <span style="color: #34495e; font-size: 70%;">0s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioFailed">
+    <td>
+     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer29">
+
+
+
+         <tr >
+    <td class="error">
+        Call to undefined function unit\jove()
+    </td>
+</tr>
+
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioFailed">
+    <td>
+     <p class="scenarioFailed" onclick="showHide('30', this)">
+          <span class="quiet">ExamenTest &raquo;</span> Test273 any <span style="color: #34495e; font-size: 70%;">0s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioFailed">
+    <td>
+     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer30">
+
+
+
+         <tr >
+    <td class="error">
+        Call to undefined function unit\any()
+    </td>
+</tr>
+
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <p class="scenarioSuccess" onclick="showHide('31', this)">
+          <span class="quiet">FunctionsTest &raquo;</span> Test240 es parell <span style="color: #34495e; font-size: 70%;">0s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer31">
+
+
+
+         
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <p class="scenarioSuccess" onclick="showHide('32', this)">
+          <span class="quiet">FunctionsTest &raquo;</span> Test240array aleatori <span style="color: #34495e; font-size: 70%;">0s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer32">
+
+
+
+         
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <p class="scenarioSuccess" onclick="showHide('33', this)">
+          <span class="quiet">FunctionsTest &raquo;</span> Test240count parells <span style="color: #34495e; font-size: 70%;">0s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer33">
+
+
+
+         
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioFailed">
+    <td>
+     <p class="scenarioFailed" onclick="showHide('34', this)">
+          <span class="quiet">FunctionsTest &raquo;</span> Test241 major <span style="color: #34495e; font-size: 70%;">0s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioFailed">
+    <td>
+     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer34">
+
+
+
+         <tr >
+    <td class="error">
+        major(): Argument #1 ($array) must be of type array, int given, called in /var/www/php/tests/unit/FunctionsTest.php on line 42
+    </td>
+</tr>
+
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <p class="scenarioSuccess" onclick="showHide('35', this)">
+          <span class="quiet">FunctionsTest &raquo;</span> Test241 concatenar <span style="color: #34495e; font-size: 70%;">0s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioSuccess">
+    <td>
+     <table border="0" width="100%" class="scenarioSuccess scenarioStepsTable" id="stepContainer35">
+
+
+
+         
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioFailed">
+    <td>
+     <p class="scenarioFailed" onclick="showHide('36', this)">
+          <span class="quiet">FunctionsTest &raquo;</span> Test242 digits <span style="color: #34495e; font-size: 70%;">0s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioFailed">
+    <td>
+     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer36">
+
+
+
+         <tr >
+    <td class="error">
+        Failed asserting that 6 matches expected 5.
+    </td>
+</tr>
+
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioFailed">
+    <td>
+     <p class="scenarioFailed" onclick="showHide('37', this)">
+          <span class="quiet">FunctionsTest &raquo;</span> Test242 digits n <span style="color: #34495e; font-size: 70%;">0s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioFailed">
+    <td>
+     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer37">
+
+
+
+         <tr >
+    <td class="error">
+        Failed asserting that 1 matches expected 3.
+    </td>
+</tr>
+
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioFailed">
+    <td>
+     <p class="scenarioFailed" onclick="showHide('38', this)">
+          <span class="quiet">FunctionsTest &raquo;</span> Test242 lleva darrere <span style="color: #34495e; font-size: 70%;">0s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioFailed">
+    <td>
+     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer38">
+
+
+
+         <tr >
+    <td class="error">
+        Call to undefined function llevaDarrere()
+    </td>
+</tr>
+
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioFailed">
+    <td>
+     <p class="scenarioFailed" onclick="showHide('39', this)">
+          <span class="quiet">FunctionsTest &raquo;</span> Test242 lleva davant <span style="color: #34495e; font-size: 70%;">0s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioFailed">
+    <td>
+     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer39">
+
+
+
+         <tr >
+    <td class="error">
+        Call to undefined function llevaDavant()
+    </td>
+</tr>
+
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioFailed">
+    <td>
+     <p class="scenarioFailed" onclick="showHide('40', this)">
+          <span class="quiet">FunctionsTest &raquo;</span> Test243peseta2 euros <span style="color: #34495e; font-size: 70%;">0s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioFailed">
+    <td>
+     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer40">
+
+
+
+         <tr >
+    <td class="error">
+        Call to undefined function peseta2euros()
+    </td>
+</tr>
+
+         
+         
+     </table>
+
+
+    </td>
+   </tr>
+
+
+   <tr class="scenarioRow scenarioFailed">
+    <td>
+     <p class="scenarioFailed" onclick="showHide('41', this)">
+          <span class="quiet">FunctionsTest &raquo;</span> Test243euro2 pesetes <span style="color: #34495e; font-size: 70%;">0s</span></p>
+    </td>
+   </tr>
+   <tr class="scenarioRow scenarioFailed">
+    <td>
+     <table border="0" width="100%" class="scenarioFailed scenarioStepsTable" id="stepContainer41">
+
+
+
+         <tr >
+    <td class="error">
+        Call to undefined function euro2pesetes()
     </td>
 </tr>
 
@@ -1393,11 +1850,11 @@
       <table border="0">
        <tr>
         <td width="250" class="scenarioSuccess">Successful scenarios:</td>
-        <td class="scenarioSuccessValue"><strong>16</strong></td>
+        <td class="scenarioSuccessValue"><strong>26</strong></td>
        </tr>
        <tr>
         <td class="scenarioFailed">Failed scenarios:</td>
-        <td class="scenarioFailedValue"><strong>1</strong></td>
+        <td class="scenarioFailedValue"><strong>5</strong></td>
        </tr>
        <tr>
         <td class="scenarioSkipped">Skipped scenarios:</td>

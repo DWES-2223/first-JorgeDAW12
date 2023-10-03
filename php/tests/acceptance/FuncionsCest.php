@@ -1,8 +1,7 @@
 <?php
-
+/*
 class FuncionsCest
 {
-    /*
     public function _before(AcceptanceTester $I)
     {
     }
@@ -108,7 +107,4 @@ class FuncionsCest
         $I->see('Hi ha 1 i');
         $I->see('Hi ha 5 vocals');
     }
-    */
-
-
-}
+}*/
