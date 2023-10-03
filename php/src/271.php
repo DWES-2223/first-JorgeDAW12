@@ -30,8 +30,6 @@ include 'atletes.php';
             echo "La prova $prova no existeix en la llista de records oficials de la FEA";
         }
     } else { ?>
-
-
         <!DOCTYPE html>
         <html lang="en">
         <head>
