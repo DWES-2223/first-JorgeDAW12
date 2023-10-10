@@ -33,6 +33,5 @@ $youngestAthleteName = $records[$youngestAthleteIndex]['atleta'];
 <?php
 include ('270a.php');
 ?>
-
 </body>
 </html>

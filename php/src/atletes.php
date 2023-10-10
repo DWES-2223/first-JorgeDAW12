@@ -1,12 +1,12 @@
 <?php $records = array (
   100 => 
   array (
-    'marca' => '10.06',
-    'atleta' => 'Bruno Hortelano Roig',
-    'natalici' => '1991',
-    'club' => 'Playas de Castellón',
+    'marca' => '12',
+    'atleta' => 'Jorge',
+    'natalici' => '2003',
+    'club' => 'Barça',
     'data' => '20.06.2016',
-    'lloc' => 'Madrid',
+    'lloc' => 'Banyeres de Mariola',
   ),
   200 => 
   array (
